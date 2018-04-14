@@ -1,0 +1,16 @@
+doctype html
+html
+	head
+		meta(charset='UTF-8')
+		title="Login Template"
+		link(rel='stylesheet', type='text/css', href='style.css')
+		style
+			include ./style.css
+	body
+		div.container
+			include ./header.pug
+			form(action='/auth/google', method='GET')
+				input(type='text', name='name', placeholder='username..')
+				input(type='password', name='password', placeholder='password')
+				button(type='submit') Log in
+			include ./footer.pug

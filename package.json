@@ -2,9 +2,9 @@
   "name": "zadanie_17_6",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-	"start": "nodemon server.js",
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +20,7 @@
   "homepage": "https://github.com/tomasz-paterka/zadanie_17_6#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "pug": "^2.0.3"
   }
 }
